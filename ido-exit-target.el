@@ -21,35 +21,30 @@
 (eval-when-compile
   (defvar ido-exit-target--target))
 
-;;;###autoload
 (defun ido-exit-target-one-window ()
   "Select the current `ido' item to fill the entire frame."
   (interactive)
   (setq ido-exit-target--target 'one-window)
   (ido-exit-minibuffer))
 
-;;;###autoload
 (defun ido-exit-target-split-window-below ()
   "Select the current `ido' item for a new window below."
   (interactive)
   (setq ido-exit-target--target 'split-window-below)
   (ido-exit-minibuffer))
 
-;;;###autoload
 (defun ido-exit-target-split-window-right ()
   "Select the current `ido' item for a new window to the right."
   (interactive)
   (setq ido-exit-target--target 'split-window-right)
   (ido-exit-minibuffer))
 
-;;;###autoload
 (defun ido-exit-target-other-window ()
   "Select the current `ido' item for `other-window'. It will create one if it doesn't exist."
   (interactive)
   (setq ido-exit-target--target 'other-window)
   (ido-exit-minibuffer))
 
-;;;###autoload
 (defun ido-exit-target-other-frame ()
   "Select the current `ido' item for `other-frame'. It will create one if it doesn't exist."
   (interactive)
