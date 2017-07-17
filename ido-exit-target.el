@@ -8,6 +8,7 @@
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24.4"))
 ;; Filename: ido-exit-target.el
+;; License: GNU General Public License version 3, or (at your option) any later version
 ;;
 
 ;;; Commentary:
